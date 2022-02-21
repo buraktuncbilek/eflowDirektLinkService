@@ -1,7 +1,7 @@
 ﻿# E-Flow Doküman Direkt Link Web Servisi
 E-Flow süreçlerindeki doküman bileşenleri için direkt link sunan web servistir.
 
-Proje self-host web api mimarisinde olup, top-shelf projesi sayesinde windows servisi olarak çalışacaktır.
+Proje self-host web api mimarisinde olup, topshelf projesi sayesinde windows servisi olarak çalışacaktır.
 
 Süreç CIID ve Bileşen DID değeri ile sürecin ilgili bileşenindeki dosyayı indirmenize olanak tanır.
 
@@ -61,3 +61,8 @@ GET http://127.0.0.1:4321/api/Dokuman/6126?did=10404
 |--|------|---------------|
 |✔|Şubat '22 | Selfhost WebAPI servisin oluşturulması|
 | | 23 Şubat '22| TopShelf ile windows servis oluşturulması|
+
+##### Kulllanılan Kütüphaneler
+* [Microsoft.AspNet.WebApi.SelfHost](https://dotnet.microsoft.com/en-us/apps/aspnet/apis)
+* [Dapper Micro ORM](https://github.com/DapperLib/Dapper)
+* [Topshelf](https://topshelf-project.com/)

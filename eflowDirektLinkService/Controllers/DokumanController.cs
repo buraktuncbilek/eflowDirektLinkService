@@ -20,12 +20,11 @@ namespace eflowDirektLinkService.Controllers
             try
             {
                 var belge = await SQL.DokumanVer(ciid, did);
-                //if (belge is null)
-                //    return Task.FromResult(new
-                //    {
-                //        Basarili = false,
-                //        Mesaj = "Belge bulunamadı!"
-                //    });
+                if (belge is null)
+                    return new HttpResponseMessage(HttpStatusCode.BadRequest)
+                    {
+                        Content = new StringContent("CIID ve DID ile herhangi bir belgeye ulaşılamadı.", Encoding.UTF8)
+                    };
 
                 var cevap = new HttpResponseMessage(HttpStatusCode.OK)
                 {
