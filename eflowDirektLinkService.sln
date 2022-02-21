@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eflowDirektLinkService", "eflowDirektLinkService\eflowDirektLinkService.csproj", "{31F57C69-AADA-4099-81A1-F0C7855B2347}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F5DD0189-54BA-42DA-8364-C66A6571AD8E}"
+	ProjectSection(SolutionItems) = preProject
+		readMe.md = readMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31F57C69-AADA-4099-81A1-F0C7855B2347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F57C69-AADA-4099-81A1-F0C7855B2347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F57C69-AADA-4099-81A1-F0C7855B2347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F57C69-AADA-4099-81A1-F0C7855B2347}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89A9C80C-2DF4-422A-82FD-01651C32299C}
+	EndGlobalSection
+EndGlobal
